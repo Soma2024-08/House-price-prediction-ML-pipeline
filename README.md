@@ -1,16 +1,15 @@
-# 🏡 House Price Prediction Using Machine Learning: A Complete Technical Tutorial
-
+# House Price Prediction Using Machine Learning End-to-End Project
 **Author:** Soma Samanta  
 **Category:** Machine Learning, Data Science, Streamlit  
-**Estimated Read Time:** 8 minutes
 
 ---
 
-## 📖 Introduction
+## Introduction
 
-Predicting house prices has always been one of the most exciting applications of machine learning. Whether you’re a data science beginner or a real estate professional, understanding how machine learning models estimate property values can provide deep insights into the factors that influence prices.
+The real estate market is one of the most dynamic and data-rich industries. Whether you’re a buyer, seller, or investor, one of the most important questions is:
 
-In this tutorial, we’ll go step-by-step through a **complete data science workflow** for predicting house prices using **Exploratory Data Analysis (EDA)**, **feature engineering**, and **machine learning modeling**. By the end, you’ll not only have a predictive model but also understand the reasoning behind each step.
+- “What’s the right price for this house?”
+In this project, we’ll go step-by-step through a **complete data science workflow** for predicting house prices using **Exploratory Data Analysis (EDA)**, **feature engineering**, and **machine learning modeling**. By the end, you’ll not only have a predictive model but also understand the reasoning behind each step.
 
 ---
 
