@@ -8,6 +8,7 @@ The real estate market is one of the most dynamic and data-rich industries. Whet
 <p align="center">
   <img src="Background.png" width="500"/>
 </p>
+
 ```
  'What’s the right price for this house?'
 ```
