@@ -6,9 +6,9 @@
 ## Introduction
 
 The real estate market is one of the most dynamic and data-rich industries. Whether you’re a buyer, seller, or investor, one of the most important questions is:
-'''
- “What’s the right price for this house?”
-'''
+
+ -'What’s the right price for this house?'
+
   
 In this project, we’ll go step-by-step through a **complete data science workflow** for predicting house prices using **Exploratory Data Analysis (EDA)**, **feature engineering**, and **machine learning modeling**. By the end, you’ll not only have a predictive model but also understand the reasoning behind each step.
 
