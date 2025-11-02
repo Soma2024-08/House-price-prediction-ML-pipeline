@@ -1,7 +1,6 @@
 # House Price Prediction Using Machine Learning End-to-End Project
-**Author:** Soma Samanta  
-**Category:** Machine Learning, Data Science, Streamlit  
 
+![]()
 ---
 
 ## Introduction
@@ -13,18 +12,18 @@ In this project, we’ll go step-by-step through a **complete data science workf
 
 ---
 
-## 🧩 Step 1: Understanding the Dataset
+##  Step 1: Understanding the Dataset
 
 We’ll be using the popular **House Prices: Advanced Regression Techniques** dataset from **Kaggle**.
 
 The dataset contains **79 explanatory variables** describing almost every aspect of residential homes in Ames, Iowa — such as the number of rooms, type of foundation, roof material, and quality of construction.
 
-### 📁 Files
+###  Files
 
 - `train.csv`: Contains 1460 observations with the target variable (`SalePrice`).
 - `test.csv`: Contains 1459 observations without `SalePrice`, used for prediction.
 
-### 🏠 Key Columns
+###  Key Columns
 
 | Feature | Description |
 |----------|--------------|
@@ -38,7 +37,7 @@ The dataset contains **79 explanatory variables** describing almost every aspect
 
 ---
 
-## 🔍 Step 2: Exploratory Data Analysis (EDA)
+##  Step 2: Exploratory Data Analysis (EDA)
 
 EDA is the most critical part of any machine learning project. It helps uncover patterns, relationships, and anomalies.
 
@@ -94,7 +93,7 @@ train.fillna(train.median(numeric_only=True), inplace=True)
 
 ---
 
-## ⚙️ Step 3: Feature Engineering
+##  Step 3: Feature Engineering
 
 We create new features to improve predictive power.
 
@@ -120,7 +119,7 @@ preprocessor = ColumnTransformer([
 
 ---
 
-## 🧠 Step 4: Model Building
+##  Step 4: Model Building
 
 We’ll use **Random Forest Regressor**, a robust algorithm for tabular data.
 
@@ -144,7 +143,7 @@ print(f'Validation R²: {score:.2f}')
 
 ---
 
-## 📊 Step 5: Model Evaluation
+##  Step 5: Model Evaluation
 
 We use **R² Score** and **RMSE** for evaluation.
 
@@ -161,7 +160,7 @@ print(f"RMSE: {rmse:.2f}")
 
 ---
 
-## 🌐 Step 6: Streamlit Web App
+##  Step 6: Streamlit Web App
 
 Once satisfied with the model, we deploy it using **Streamlit** for real-time predictions.
 
@@ -170,7 +169,7 @@ import streamlit as st
 import joblib
 
 model = joblib.load('models/final_model_pipeline.joblib')
-st.title('🏡 House Price Prediction App')
+st.title(' House Price Prediction App')
 
 lot_area = st.number_input('Lot Area', value=8000)
 year_built = st.number_input('Year Built', value=2000)
@@ -190,7 +189,7 @@ streamlit run app.py
 
 ---
 
-## 🚀 Conclusion
+## Conclusion
 
 We successfully built a complete **House Price Prediction System** — from **EDA** to **deployment**.
 
@@ -204,6 +203,5 @@ This project demonstrates the **end-to-end ML lifecycle**, helping you strengthe
 
 ---
 
-**📌 Author:** *Soma Samanta*  
-**🗓️ Date:** November 2025  
-**🔗 Follow me for more projects in Machine Learning, Deep Learning, and Generative AI!*
+** Author:** *Soma Samanta*  
+** Date:** November 2025  
